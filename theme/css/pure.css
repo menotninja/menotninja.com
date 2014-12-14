@@ -179,7 +179,7 @@ pre {
 .content {
     padding: 2em 3em 0;
     max-width: 1000px;
-    font-size: 110%;
+    font-size: 100%;
     line-height: 1.45;
     color: #333332;
 }
@@ -243,6 +243,10 @@ pre {
 .footer .pure-menu a:hover,
 .footer .pure-menu a:focus {
     background: none;
+}
+
+.pure-u-1 {
+  width: 80%;
 }
 
 .pagination-wrapper {
