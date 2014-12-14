@@ -1,0 +1,5 @@
+*.pyc
+env/
+*.pid
+cache/
+output/
