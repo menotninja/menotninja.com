@@ -15,6 +15,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
+COVER_IMG_URL = 'https://raw.githubusercontent.com/menotninja/menotninja.com/gh-pages/images/stand.jpg'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
