@@ -4,9 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'menotninja'
 SITENAME = u'Me Not Ninja'
+TAGLINE = 'Reaching 10x'
 SITEURL = ''
 
 PATH = 'content'
+
+THEME = 'pure'
 
 TIMEZONE = 'Europe/Paris'
 
