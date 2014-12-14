@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>How to Read/Debug a New Language Quickly // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Fri 31 October 2014</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>How to Read/Debug a New Language Quickly</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <p>When I was starting out, I frequently felt overwhelmed by the never-ending (and
+growing) list of languages and frameworks. I was constantly worrying about
+whether I was (or wasn’t) spending enough time on the right languages, or
+whether I was missing out on any opportunities because I didn’t know
+COOL-NEW-SHINY-EVEN-DOES-YOUR-DISHES LANGUAGE X or
+BEAUTIFULLY-HANDCRAFTED-BY-YOUR-GRANDMA FRAMEWORK Y. It was a constant source
+of stress and contention - I was obsessed, paralyzed, and lost in FOMO-land.</p>
+<p>I am not the only one; we have all been there. An article about the problem
+recently appeared on TechCrunch, labeling the phenomenon as <a href="http://techcrunch.com/2014/10/18/you-too-may-be-a-victim-of-developaralysis/">Developer
+Paralysis</a>.</p>
+<p>Over the years, I realized that I am no longer worried anymore. Through months
+of trial-and-error and observation, I have figured out a strategy for learning
+how to read and debug code written in new languages quickly. This gave me the
+much-needed confidence to take on different projects and tackle new challenges.
+When it comes to picking up a new language, most folks will tell you to jump
+straight in, and "use it in a project." Don’t get me wrong - this is a
+perfectly reasonable tactic, and I strongly recommend it for learning your
+first language. However, for your subsequent languages, this tactic also
+guarantees that you will repeat the same agony and confusion every time. When I
+tried it, I found myself resisting changes to my mental models, and then
+quickly getting lost and being inundated by the large number of blog posts,
+articles, and documentation about the shiny new language. <em>Diving in is fun,
+but inefficient.</em> Most top performers I know use a more structured approach to
+introduce themselves to a new language systematically.</p>
+<p><strong>Day 1</strong> Ask some basic questions:</p>
+<ul>
+<li>Is it imperative or functional? Does it have objects and classes?</li>
+<li>Is it interpreted or compiled?</li>
+<li>How do you organize code into smaller chunks? Does it have namespaces?</li>
+<li>How do you use libraries?</li>
+<li>Find the documentation for the language API and bookmark it.</li>
+<li>Follow the documentation to setup your environment.</li>
+</ul>
+<p>Don’t try to do too much on the first day. Use your motivation to focus on
+getting yourself ready, and stop at "Hello World".</p>
+<p><strong>Day 2</strong> Learn how to create a tight feedback loop. Nothing accelerates your
+learning like being able to test ideas quickly and get feedback. Use it to try
+out the syntax, rewrite tiny methods/functions etc.</p>
+<p>In general, I prefer REPL over unit tests over actual program execution. If
+possible, find a debugger and use it to set breakpoints and inspect variables.
+Leave the advanced debugger features to later.</p>
+<p>Note that at this point, we haven’t written much code yet, just spending time
+getting ready.</p>
+<p><strong>Days 3 to 7</strong> Create tiny examples for each of the following:</p>
+<ul>
+<li>Initializing String/Lists/Arrays</li>
+<li>Writing Loops + Binary Search</li>
+<li>Using Serialization + File I/O</li>
+</ul>
+<p>Use the tools you found in Days 1 and 2 to debug and build these quickly.
+Tighten the feedback loop if you have to.</p>
+<p><strong>Days 8 to 15</strong> Create tiny examples for each of the following:</p>
+<ul>
+<li>Reverse String/List/Array</li>
+<li>Implement Your favorite OOP pattern e.g. The Strategy Pattern</li>
+<li>Implement Your favorite Dynamic Programming solution e.g. The Knapsack Problem</li>
+</ul>
+<p>You don’t have to be an expert at every language you learn. This strategy
+prepares you by deliberately acquiring the information you need to get most of
+the way there.</p>
+<p>Now go out there and code your ass off.</p>
+            <p>If you got this far, you should sign up for more.</p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>

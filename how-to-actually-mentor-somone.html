@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>How to (Actually) Mentor Someone // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Fri 28 November 2014</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>How to (Actually) Mentor Someone</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <p><strong>Too many of us have no idea how to be a good mentor.</strong></p>
+<p>When you started your career, you probably had a few mentors help you out along
+the way. Some mentors were phenomenal, most were mediocre, and a few were
+terrible. Eventually, as your career advanced, you (being ambitious and
+diligent) began to accumulate valuable skills and experience. Soon, you realize
+that more people come to you for help, and slowly but surely, you find yourself
+taking up a mentorship role at your company.</p>
+<p>Yet, most mentors have no idea what they are doing. Some make you feel stupid.
+Some feel like they can’t wait to show off. Some leave their students more
+lost and confused than before.</p>
+<p>Here are some strategies that I have learnt over the past year. Some might
+surprise you.</p>
+<h3>Never Say, "It's Easy!"</h3>
+<p>Because it makes them feel stupid. "Yea, if it’s so easy, why do I need
+you?" Instead, focus on being understanding and building rapport. You were
+there once; use that similarity to establish a connection.</p>
+<h3>Go Slow, and Think Aloud</h3>
+<p>Keyboard shortcuts are great. Your vim skills are amazing. When you are in the
+zone, your flash between tmux tabs constantly. Don’t do it when you are
+mentoring.</p>
+<p>Go slow. Explain what you are doing, and <em>why you are doing it</em>. Describe your
+intuitions, your gut feelings. Most important, explain how you know when it’s
+time to Google, and how you came up with the search terms.</p>
+<h3>It’s OK to Drive</h3>
+<p>… if you drive slowly. If a problem is complex, it’s OK to take over the
+keyboard and help with debugging. It’s less stressful for the student, and
+it’s easier for you to think aloud and explain what you are doing. Show them
+your mental processes.</p>
+<p><em>At the end of the day, mentorship is not really about transferring technical
+knowledge. It’s about helping them gain the confidence to go forth and explore
+the big, scary, and sometimes overwhelming wilderness of software development.</em></p>
+<p>Thoughts, comments, criticism? Fire away.</p>
+            <p>If you got this far, you should sign up for more.</p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>

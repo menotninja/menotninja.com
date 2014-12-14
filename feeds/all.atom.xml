@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-11-28T00:00:00+01:00</updated><entry><title>How to (Actually) Mentor Someone</title><link href="/how-to-actually-mentor-somone.html" rel="alternate"></link><updated>2014-11-28T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-11-28:how-to-actually-mentor-somone.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Too many of us have no idea how to be a good mentor.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you started your career, you probably had a few mentors help you out along
+the way. Some mentors were phenomenal, most were mediocre, and a few were
+terrible. Eventually, as your career advanced, you (being ambitious and
+diligent) began to accumulate valuable skills and experience. Soon, you realize
+that more people come to you for help, and slowly but surely, you find yourself
+taking up a mentorship role at your company.&lt;/p&gt;
+&lt;p&gt;Yet, most mentors have no idea what they are doing. Some make you feel stupid.
+Some feel like they can’t wait to show off. Some leave their students more
+lost and confused than before.&lt;/p&gt;
+&lt;p&gt;Here are some strategies that I have learnt over the past year. Some might
+surprise you.&lt;/p&gt;
+&lt;h3&gt;Never Say, "It's Easy!"&lt;/h3&gt;
+&lt;p&gt;Because it makes them feel stupid. "Yea, if it’s so easy, why do I need
+you?" Instead, focus on being understanding and building rapport. You were
+there once; use that similarity to establish a connection.&lt;/p&gt;
+&lt;h3&gt;Go Slow, and Think Aloud&lt;/h3&gt;
+&lt;p&gt;Keyboard shortcuts are great. Your vim skills are amazing. When you are in the
+zone, your flash between tmux tabs constantly. Don’t do it when you are
+mentoring.&lt;/p&gt;
+&lt;p&gt;Go slow. Explain what you are doing, and &lt;em&gt;why you are doing it&lt;/em&gt;. Describe your
+intuitions, your gut feelings. Most important, explain how you know when it’s
+time to Google, and how you came up with the search terms.&lt;/p&gt;
+&lt;h3&gt;It’s OK to Drive&lt;/h3&gt;
+&lt;p&gt;… if you drive slowly. If a problem is complex, it’s OK to take over the
+keyboard and help with debugging. It’s less stressful for the student, and
+it’s easier for you to think aloud and explain what you are doing. Show them
+your mental processes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;At the end of the day, mentorship is not really about transferring technical
+knowledge. It’s about helping them gain the confidence to go forth and explore
+the big, scary, and sometimes overwhelming wilderness of software development.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Thoughts, comments, criticism? Fire away.&lt;/p&gt;</summary><category term="mentoring"></category></entry><entry><title>A Note to Those Constantly Nervous/Worried About Their Code</title><link href="/constantly-nervous.html" rel="alternate"></link><updated>2014-11-13T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-11-13:constantly-nervous.html</id><summary type="html">&lt;p&gt;Two years ago, I started my first internship at a startup in Silicon Valley as
+a software engineer. This was the first time I wrote production code that was
+affecting real customers. Like many of you here, my mind was flooded with
+self-doubt and fear. I felt that I wasn’t good enough, and was very nervous
+about everything I wrote. It had to be perfect; it had to stand up to the
+scrutiny of the other "real" engineers.&lt;/p&gt;
+&lt;p&gt;My first few months were rewarding, but also excruciating. I was endlessly
+obsessing over my work and worrying about tiny, inconsequential details. Each
+day, I worried that I would be discovered and fired because I wasn’t good
+enough.&lt;/p&gt;
+&lt;p&gt;In other words, I had the Imposter Syndrome. It drove me crazy.&lt;/p&gt;
+&lt;p&gt;A few days ago, I suddenly realized that I no longer feel that way anymore.
+Certainly, I cared about the quality of my work, but I am no longer obsessed,
+crazy, about minute details and afraid of criticism. Looking back, I credit
+this change to one mindset shift: I compared myself to myself, instead of
+watching the success of others.&lt;/p&gt;
+&lt;p&gt;I made it a habit to review code that I wrote two weeks ago and identify areas
+where I can improve. I collected a list of things to learn, articles to read,
+and set time aside to study these every day. While I was not following any
+specific metrics, I was tracking my productivity, code quality, and kept an eye
+on number of production issues to monitor my progress.&lt;/p&gt;
+&lt;p&gt;Each day was a small success. I stopped comparing my day-to-day reality with
+the highlight reel of the rockstars in the industry. I
+watched/shadowed/pestered other engineers in the company, and made sure that I
+was getting better each day.&lt;/p&gt;
+&lt;p&gt;I stopped comparing my beginning to other’s prime.&lt;/p&gt;
+&lt;p&gt;You are supposed to cringe at code you wrote many months ago. If you don’t,
+you are not growing. Now go out there and code your ass off.&lt;/p&gt;</summary><category term="beginners"></category></entry><entry><title>The Art of Googling: Hunting Down Solutions in Record Time</title><link href="/the-art-of-googling.html" rel="alternate"></link><updated>2014-11-08T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-11-08:the-art-of-googling.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Few beginners know how to use Google effectively.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Everyone knows that one should use Google; yet few beginners know how to use
+Google effectively. Even fewer mentors recognize this as an important skill
+that needs to be taught explicitly.&lt;/p&gt;
+&lt;p&gt;When you point your browser at google.com, you find a blank search box staring
+back at you. What magical keywords should you type in there to help you solve
+the problem you are tackling?&lt;/p&gt;
+&lt;h3&gt;First, imagine what you want to see in the search results.&lt;/h3&gt;
+&lt;p&gt;If you are trying to debug an exception/error/unexpected behavior, odds are
+someone else encountered the same problem. The first goal is to find a similar
+question on StackOverflow, a thread on a mailing list etc. A subsequent goal
+might be to learn more about a specific cause by looking up documentation for
+some API or function.&lt;/p&gt;
+&lt;p&gt;Keeping these goals in mind, imagine what keywords are most likely to appear on
+these pages.&lt;/p&gt;
+&lt;h3&gt;Cut down the search space.&lt;/h3&gt;
+&lt;p&gt;Your search terms should be sufficient to uniquely describe the issue you are
+tackling. Include names of languages, frameworks, libraries etc. In some
+situations, it might be necessary to include version numbers as well; this is
+more important in languages like Scala (2.9 ~ 2.11), Python (2.7 vs 3), and
+Java (6 ~ 8).&lt;/p&gt;
+&lt;p&gt;Add and remove keywords until you get a satisfactory list of results, and use
+what you learn to fine tune your search. It frequently takes me 3~4 tries to
+get what I want.&lt;/p&gt;
+&lt;h3&gt;Selectively copy errors.&lt;/h3&gt;
+&lt;p&gt;Copying the entire stack trace will not be useful - it will contain too many
+details that are specific to your work. On the other extreme, searching for
+“it doesn’t work” will not help you either. Find the sweet spot in the
+middle, including just enough pertinent information to identify key aspects of
+the error.&lt;/p&gt;
+&lt;p&gt;This is an art. In Java, I usually copy just the exception class and the
+accompanying exception message.&lt;/p&gt;
+&lt;p&gt;We all cross a hump at some point. Eventually, you will become so familiar with
+the space of problems that you know, instinctively, what to look for.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thoughts, comments, criticism? Fire away.&lt;/em&gt;&lt;/p&gt;</summary><category term="beginners"></category></entry><entry><title>Feeling Overwhelmed, and Dealing With It</title><link href="/feeling-overwhelmed.html" rel="alternate"></link><updated>2014-11-05T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-11-05:feeling-overwhelmed.html</id><summary type="html">&lt;p&gt;The first time I learnt a programming language, I was astounded. I was
+following exercises in a textbook, and I felt like I could do anything. I was
+spending hours sorting out weird bugs and memorizing C++’s weird syntax.
+However, as soon as I finished the book and began venturing out on the Web to
+learn more on my own, I was &lt;em&gt;overwhelmed&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;There was so much to learn! Over the next few years, I learnt a new language
+every few months, yet it still felt like I wasn’t learning fast enough and
+"couldn't keep up with the competition." In every discussion I enter, every
+hackathon I attend, people around me were talking about new
+languages/frameworks/technologies/libraries. I felt like an impostor most of
+the time, and I told myself I "wasn’t good enough."&lt;/p&gt;
+&lt;p&gt;And then I figured it out. I learnt how to deal with this feeling of
+helplessness, build my skills, gain confidence, and carve out a career for
+myself. It took me a long time, but I devised a good system for taking charge
+of my learning and growth.&lt;/p&gt;
+&lt;p&gt;Here are two tricks you can start using today.&lt;/p&gt;
+&lt;h3&gt;Keep A Pile of "Things to Read"&lt;/h3&gt;
+&lt;p&gt;Trust me, it sounds lame, but keeping a list helps to keep the burden off your
+mind and help you feel less overwhelmed. As you encounter questions or new
+terms, resist the urge to tackle them immediately. Instead, write them down,
+and finish what you were working on. Review this list weekly and reorganize it
+from time to time, then begin working items off this list once you get a
+chance.&lt;/p&gt;
+&lt;p&gt;Anything (including Notepad, or vim) will work, but I personally use pocket and
+OmniFocus.&lt;/p&gt;
+&lt;p&gt;It is especially gratifying to review your list at the end of each year and see
+how far you have come. You may not be as good as the people you idolize, but
+you will know that you are better than you were last year.&lt;/p&gt;
+&lt;h3&gt;Pick a Few, and Focus. Become an Expert.&lt;/h3&gt;
+&lt;p&gt;Sometimes it feels like there are a lot of technologies, languages, and
+frameworks out there. It’s impossible to learn them all. So what do we do?&lt;/p&gt;
+&lt;p&gt;We look to the data.&lt;/p&gt;
+&lt;p&gt;You can use trends from indeed.com and StackOverflow to get a feel of the most
+popular or up-and-coming tools in the industry today and guess what will
+continue to be useful in 1 to 4 years. Pick a few and focus on them until you
+become an expert.&lt;/p&gt;
+&lt;p&gt;One more thing - believe it or not, you are an &lt;em&gt;engineer&lt;/em&gt;, not just a
+&lt;em&gt;programmer&lt;/em&gt;. Every language is just a tool in your toolbox. Also, most skills
+(such as logical thinking, debugging, and object-oriented programming) are
+transferable.  Don’t worry about spending too much time on Ruby and not playing
+with Python.  The knowledge you gain about interpreted languages are more
+valuable than your familiarity with the syntax.&lt;/p&gt;</summary><category term="beginners"></category></entry><entry><title>How to Read/Debug a New Language Quickly</title><link href="/read-debug-a-new-lang.html" rel="alternate"></link><updated>2014-10-31T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-10-31:read-debug-a-new-lang.html</id><summary type="html">&lt;p&gt;When I was starting out, I frequently felt overwhelmed by the never-ending (and
+growing) list of languages and frameworks. I was constantly worrying about
+whether I was (or wasn’t) spending enough time on the right languages, or
+whether I was missing out on any opportunities because I didn’t know
+COOL-NEW-SHINY-EVEN-DOES-YOUR-DISHES LANGUAGE X or
+BEAUTIFULLY-HANDCRAFTED-BY-YOUR-GRANDMA FRAMEWORK Y. It was a constant source
+of stress and contention - I was obsessed, paralyzed, and lost in FOMO-land.&lt;/p&gt;
+&lt;p&gt;I am not the only one; we have all been there. An article about the problem
+recently appeared on TechCrunch, labeling the phenomenon as &lt;a href="http://techcrunch.com/2014/10/18/you-too-may-be-a-victim-of-developaralysis/"&gt;Developer
+Paralysis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Over the years, I realized that I am no longer worried anymore. Through months
+of trial-and-error and observation, I have figured out a strategy for learning
+how to read and debug code written in new languages quickly. This gave me the
+much-needed confidence to take on different projects and tackle new challenges.
+When it comes to picking up a new language, most folks will tell you to jump
+straight in, and "use it in a project." Don’t get me wrong - this is a
+perfectly reasonable tactic, and I strongly recommend it for learning your
+first language. However, for your subsequent languages, this tactic also
+guarantees that you will repeat the same agony and confusion every time. When I
+tried it, I found myself resisting changes to my mental models, and then
+quickly getting lost and being inundated by the large number of blog posts,
+articles, and documentation about the shiny new language. &lt;em&gt;Diving in is fun,
+but inefficient.&lt;/em&gt; Most top performers I know use a more structured approach to
+introduce themselves to a new language systematically.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Day 1&lt;/strong&gt; Ask some basic questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is it imperative or functional? Does it have objects and classes?&lt;/li&gt;
+&lt;li&gt;Is it interpreted or compiled?&lt;/li&gt;
+&lt;li&gt;How do you organize code into smaller chunks? Does it have namespaces?&lt;/li&gt;
+&lt;li&gt;How do you use libraries?&lt;/li&gt;
+&lt;li&gt;Find the documentation for the language API and bookmark it.&lt;/li&gt;
+&lt;li&gt;Follow the documentation to setup your environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Don’t try to do too much on the first day. Use your motivation to focus on
+getting yourself ready, and stop at "Hello World".&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Day 2&lt;/strong&gt; Learn how to create a tight feedback loop. Nothing accelerates your
+learning like being able to test ideas quickly and get feedback. Use it to try
+out the syntax, rewrite tiny methods/functions etc.&lt;/p&gt;
+&lt;p&gt;In general, I prefer REPL over unit tests over actual program execution. If
+possible, find a debugger and use it to set breakpoints and inspect variables.
+Leave the advanced debugger features to later.&lt;/p&gt;
+&lt;p&gt;Note that at this point, we haven’t written much code yet, just spending time
+getting ready.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Days 3 to 7&lt;/strong&gt; Create tiny examples for each of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Initializing String/Lists/Arrays&lt;/li&gt;
+&lt;li&gt;Writing Loops + Binary Search&lt;/li&gt;
+&lt;li&gt;Using Serialization + File I/O&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use the tools you found in Days 1 and 2 to debug and build these quickly.
+Tighten the feedback loop if you have to.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Days 8 to 15&lt;/strong&gt; Create tiny examples for each of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reverse String/List/Array&lt;/li&gt;
+&lt;li&gt;Implement Your favorite OOP pattern e.g. The Strategy Pattern&lt;/li&gt;
+&lt;li&gt;Implement Your favorite Dynamic Programming solution e.g. The Knapsack Problem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You don’t have to be an expert at every language you learn. This strategy
+prepares you by deliberately acquiring the information you need to get most of
+the way there.&lt;/p&gt;
+&lt;p&gt;Now go out there and code your ass off.&lt;/p&gt;</summary><category term="beginners"></category></entry><entry><title>Fears and Frustrations</title><link href="/biggest-fears-and-frustrations.html" rel="alternate"></link><updated>2014-10-26T00:00:00+02:00</updated><author><name>menotninja</name></author><id>tag:,2014-10-26:biggest-fears-and-frustrations.html</id><summary type="html">&lt;p&gt;What were your biggest fears and frustrations when you started programming?&lt;/p&gt;
+&lt;p&gt;I posted the &lt;a href="https://www.reddit.com/r/learnprogramming/comments/2kc5hp/what_arewere_your_biggest_fears_and_frustrations/"&gt;question&lt;/a&gt; on &lt;a href="http://www.reddit.com/r/learnprogramming"&gt;/r/learnprogramming&lt;/a&gt; today, and received several
+interesting responses. Many beginners complained about being overwhelmed,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think the sheer amount of information can be a bit overwhelming. It's
+difficult to try to learn something and then realize that you should've
+learned something else first. - ampersandlin&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;and confused,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I'd start learning X, then came across Y and jumped ship and started learning
+Y. Rinse and repeat. After 6 months I had touched many technologies but
+didn't understand anything. - goralph&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A few were worried about posting to forums such as reddit and stackoverflow:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You think reddit is bad when you have a typo they will lose there mind. Ask
+something simple they rip your head off but the reason you asked was because
+you didn't know a key term and therefor couldn't search properly. - samjk14&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Do any of these resonate with you? Were your fears completely different? Let me
+know in the comments.&lt;/p&gt;</summary><category term="beginners"></category></entry></feed>

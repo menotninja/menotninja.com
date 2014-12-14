@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>Feeling Overwhelmed, and Dealing With It // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Wed 05 November 2014</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Feeling Overwhelmed, and Dealing With It</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <p>The first time I learnt a programming language, I was astounded. I was
+following exercises in a textbook, and I felt like I could do anything. I was
+spending hours sorting out weird bugs and memorizing C++’s weird syntax.
+However, as soon as I finished the book and began venturing out on the Web to
+learn more on my own, I was <em>overwhelmed</em>.</p>
+<p>There was so much to learn! Over the next few years, I learnt a new language
+every few months, yet it still felt like I wasn’t learning fast enough and
+"couldn't keep up with the competition." In every discussion I enter, every
+hackathon I attend, people around me were talking about new
+languages/frameworks/technologies/libraries. I felt like an impostor most of
+the time, and I told myself I "wasn’t good enough."</p>
+<p>And then I figured it out. I learnt how to deal with this feeling of
+helplessness, build my skills, gain confidence, and carve out a career for
+myself. It took me a long time, but I devised a good system for taking charge
+of my learning and growth.</p>
+<p>Here are two tricks you can start using today.</p>
+<h3>Keep A Pile of "Things to Read"</h3>
+<p>Trust me, it sounds lame, but keeping a list helps to keep the burden off your
+mind and help you feel less overwhelmed. As you encounter questions or new
+terms, resist the urge to tackle them immediately. Instead, write them down,
+and finish what you were working on. Review this list weekly and reorganize it
+from time to time, then begin working items off this list once you get a
+chance.</p>
+<p>Anything (including Notepad, or vim) will work, but I personally use pocket and
+OmniFocus.</p>
+<p>It is especially gratifying to review your list at the end of each year and see
+how far you have come. You may not be as good as the people you idolize, but
+you will know that you are better than you were last year.</p>
+<h3>Pick a Few, and Focus. Become an Expert.</h3>
+<p>Sometimes it feels like there are a lot of technologies, languages, and
+frameworks out there. It’s impossible to learn them all. So what do we do?</p>
+<p>We look to the data.</p>
+<p>You can use trends from indeed.com and StackOverflow to get a feel of the most
+popular or up-and-coming tools in the industry today and guess what will
+continue to be useful in 1 to 4 years. Pick a few and focus on them until you
+become an expert.</p>
+<p>One more thing - believe it or not, you are an <em>engineer</em>, not just a
+<em>programmer</em>. Every language is just a tool in your toolbox. Also, most skills
+(such as logical thinking, debugging, and object-oriented programming) are
+transferable.  Don’t worry about spending too much time on Ruby and not playing
+with Python.  The knowledge you gain about interpreted languages are more
+valuable than your familiarity with the syntax.</p>
+            <p>If you got this far, you should sign up for more.</p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>

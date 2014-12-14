@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>A Note to Those Constantly Nervous/Worried About Their Code // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Thu 13 November 2014</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>A Note to Those Constantly Nervous/Worried About Their Code</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <p>Two years ago, I started my first internship at a startup in Silicon Valley as
+a software engineer. This was the first time I wrote production code that was
+affecting real customers. Like many of you here, my mind was flooded with
+self-doubt and fear. I felt that I wasn’t good enough, and was very nervous
+about everything I wrote. It had to be perfect; it had to stand up to the
+scrutiny of the other "real" engineers.</p>
+<p>My first few months were rewarding, but also excruciating. I was endlessly
+obsessing over my work and worrying about tiny, inconsequential details. Each
+day, I worried that I would be discovered and fired because I wasn’t good
+enough.</p>
+<p>In other words, I had the Imposter Syndrome. It drove me crazy.</p>
+<p>A few days ago, I suddenly realized that I no longer feel that way anymore.
+Certainly, I cared about the quality of my work, but I am no longer obsessed,
+crazy, about minute details and afraid of criticism. Looking back, I credit
+this change to one mindset shift: I compared myself to myself, instead of
+watching the success of others.</p>
+<p>I made it a habit to review code that I wrote two weeks ago and identify areas
+where I can improve. I collected a list of things to learn, articles to read,
+and set time aside to study these every day. While I was not following any
+specific metrics, I was tracking my productivity, code quality, and kept an eye
+on number of production issues to monitor my progress.</p>
+<p>Each day was a small success. I stopped comparing my day-to-day reality with
+the highlight reel of the rockstars in the industry. I
+watched/shadowed/pestered other engineers in the company, and made sure that I
+was getting better each day.</p>
+<p>I stopped comparing my beginning to other’s prime.</p>
+<p>You are supposed to cringe at code you wrote many months ago. If you don’t,
+you are not growing. Now go out there and code your ass off.</p>
+            <p>If you got this far, you should sign up for more.</p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
