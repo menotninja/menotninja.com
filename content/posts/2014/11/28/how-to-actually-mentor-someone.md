@@ -50,4 +50,4 @@ your mental processes.
 knowledge. It’s about helping them gain the confidence to go forth and explore
 the big, scary, and sometimes overwhelming wilderness of software development.*
 
-Thoughts, comments, criticism? Fire away.
+Thoughts, comments, criticism? [Fire away]({filename}/posts/2014/11/28/how-to-actually-mentor-someone.md).
