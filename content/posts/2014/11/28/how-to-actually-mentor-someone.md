@@ -5,6 +5,8 @@ Tags: mentoring
 Slug: how-to-actually-mentor-somone
 Summary: Tips and strategies for effective mentoring.
 
+![mentoring]({filename}/images/mentor-small.jpg)
+
 **Too many of us have no idea how to be a good mentor.**
 
 When you started your career, you probably had a few mentors help you out along
