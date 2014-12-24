@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-12-24T00:00:00+01:00</updated><entry><title>Continuous Integration (for Beginners)</title><link href="/continuous-integration-for-beginners.html" rel="alternate"></link><updated>2014-12-24T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-12-24:continuous-integration-for-beginners.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Ooh that's a fancy buzzword.&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-12-24T00:00:00+01:00</updated><entry><title>Continuous Integration (for Beginners)</title><link href="/continuous-integration-for-beginners.html" rel="alternate"></link><updated>2014-12-24T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-12-24:continuous-integration-for-beginners.html</id><summary type="html">&lt;p&gt;&lt;img alt="ci-branches" src="/images/ci-branches.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ooh that's a fancy buzzword.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I am certain you have heard it a few times - "CI" is a hot term that gets
 frequently tossed around other agile/XP concepts. It can sound intimidating,
 but in practice it's fairly straightforward. This is one of the core skills
