@@ -5,6 +5,8 @@ Tags: agile
 Slug: continuous-integration-for-beginners
 Summary: Continuous Integration and other Scary Buzzwords for Beginners
 
+![ci-branches]({filename}/images/ci-branches.png)
+
 **Ooh that's a fancy buzzword.**
 
 I am certain you have heard it a few times - "CI" is a hot term that gets
