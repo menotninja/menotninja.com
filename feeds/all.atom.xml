@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-11-28T00:00:00+01:00</updated><entry><title>How to (Actually) Mentor Someone</title><link href="/how-to-actually-mentor-somone.html" rel="alternate"></link><updated>2014-11-28T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-11-28:how-to-actually-mentor-somone.html</id><summary type="html">&lt;p&gt;&lt;img alt="mentoring" src="/images/mentor-small.jpg" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-12-24T00:00:00+01:00</updated><entry><title>Continuous Integration (for Beginners)</title><link href="/continuous-integration-for-beginners.html" rel="alternate"></link><updated>2014-12-24T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-12-24:continuous-integration-for-beginners.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Ooh that's a fancy buzzword.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I am certain you have heard it a few times - "CI" is a hot term that gets
+frequently tossed around other agile/XP concepts. It can sound intimidating,
+but in practice it's fairly straightforward. This is one of the core skills
+that separates professionals from the amateurs, and having a good understanding
+of it will help you progress from a script kiddie to an engineer as you enter
+the industry.&lt;/p&gt;
+&lt;h3&gt;What It Does, and Why We Need It&lt;/h3&gt;
+&lt;p&gt;The basic intention behind continuous integration is simple: merge your changes
+with your team's changes frequently and regularly. (In practice, this should
+happen at least once a day.) This allows the whole team to progress in step,
+staying in sync until the project is shipped.&lt;/p&gt;
+&lt;p&gt;A team that does not employ continuous integration will often encounter
+problems with multiple versions of the same codebase with several weeks of work
+in between them. These can take an excruciatingly long time to merge, and will
+likely lead to unpredictable integration problems.&lt;/p&gt;
+&lt;h3&gt;How To Get Started&lt;/h3&gt;
+&lt;p&gt;If you use git (or some other version control tool, such as mercurial),
+continuous integration just means that&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;changes are made on feature/patch branches;&lt;/li&gt;
+&lt;li&gt;branches are kept up-to-date with the master branch daily; and&lt;/li&gt;
+&lt;li&gt;branches are merged into the master branch regularly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example, my workflow for some Feature X could be&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;# checkout master branch from source&lt;/span&gt;
+git checkout master
+git pull origin master
+
+&lt;span class="c"&gt;# create a new branch named after Feature X from the master branch&lt;/span&gt;
+git checkout -b feature-x
+
+&lt;span class="c"&gt;# work on my branch, adding unit tests where necessary&lt;/span&gt;
+git commit -m &lt;span class="s2"&gt;&amp;quot;...&amp;quot;&lt;/span&gt;
+
+&lt;span class="c"&gt;# pull updates on the master branch into my branch daily&lt;/span&gt;
+git pull origin master
+
+&lt;span class="c"&gt;# push my branch to the source when it&amp;#39;s ready&lt;/span&gt;
+git push origin feature-x
+
+&lt;span class="c"&gt;# merge my branch into the master branch to share my work with the team&lt;/span&gt;
+&lt;span class="c"&gt;# using GitHub pull requests&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In practice, it's tricky to ensure that things continue to work as expected
+after merging. To mitigate the problem, we use static code analysis tools and
+unit tests after each step to verify the "health" of the codebase. The entire
+sequence of checks and tests is called a "build"; a change that causes a
+check/test to fail is said to have "broken the build". An active project will
+have several "builds" a day.&lt;/p&gt;
+&lt;p&gt;CI encourages frequent merges and code reviews, forces regular communication to
+resolve differences in implicit assumptions.&lt;/p&gt;
+&lt;p&gt;Thoughts, comments, criticism? Fire away.&lt;/p&gt;
+&lt;h3&gt;Learn More&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A much more &lt;a href="http://martinfowler.com/articles/continuousIntegration.html"&gt;detailed explanation&lt;/a&gt; (from 2006) by Martin Fowler&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://travis-ci.org/"&gt;travis-ci&lt;/a&gt; offers free online builds for open-source projects&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://jenkins-ci.org/"&gt;jenkins-ci&lt;/a&gt; is a popular tool amongst larger teams/companies&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="agile"></category></entry><entry><title>How to (Actually) Mentor Someone</title><link href="/how-to-actually-mentor-somone.html" rel="alternate"></link><updated>2014-11-28T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-11-28:how-to-actually-mentor-somone.html</id><summary type="html">&lt;p&gt;&lt;img alt="mentoring" src="/images/mentor-small.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Too many of us have no idea how to be a good mentor.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;When you started your career, you probably had a few mentors help you out along
 the way. Some mentors were phenomenal, most were mediocre, and a few were

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>Continuous Integration (for Beginners) // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Wed 24 December 2014</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Continuous Integration (for Beginners)</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <p><strong>Ooh that's a fancy buzzword.</strong></p>
+<p>I am certain you have heard it a few times - "CI" is a hot term that gets
+frequently tossed around other agile/XP concepts. It can sound intimidating,
+but in practice it's fairly straightforward. This is one of the core skills
+that separates professionals from the amateurs, and having a good understanding
+of it will help you progress from a script kiddie to an engineer as you enter
+the industry.</p>
+<h3>What It Does, and Why We Need It</h3>
+<p>The basic intention behind continuous integration is simple: merge your changes
+with your team's changes frequently and regularly. (In practice, this should
+happen at least once a day.) This allows the whole team to progress in step,
+staying in sync until the project is shipped.</p>
+<p>A team that does not employ continuous integration will often encounter
+problems with multiple versions of the same codebase with several weeks of work
+in between them. These can take an excruciatingly long time to merge, and will
+likely lead to unpredictable integration problems.</p>
+<h3>How To Get Started</h3>
+<p>If you use git (or some other version control tool, such as mercurial),
+continuous integration just means that</p>
+<ul>
+<li>changes are made on feature/patch branches;</li>
+<li>branches are kept up-to-date with the master branch daily; and</li>
+<li>branches are merged into the master branch regularly.</li>
+</ul>
+<p>For example, my workflow for some Feature X could be</p>
+<div class="highlight"><pre><span class="c"># checkout master branch from source</span>
+git checkout master
+git pull origin master
+
+<span class="c"># create a new branch named after Feature X from the master branch</span>
+git checkout -b feature-x
+
+<span class="c"># work on my branch, adding unit tests where necessary</span>
+git commit -m <span class="s2">&quot;...&quot;</span>
+
+<span class="c"># pull updates on the master branch into my branch daily</span>
+git pull origin master
+
+<span class="c"># push my branch to the source when it&#39;s ready</span>
+git push origin feature-x
+
+<span class="c"># merge my branch into the master branch to share my work with the team</span>
+<span class="c"># using GitHub pull requests</span>
+</pre></div>
+
+
+<p>In practice, it's tricky to ensure that things continue to work as expected
+after merging. To mitigate the problem, we use static code analysis tools and
+unit tests after each step to verify the "health" of the codebase. The entire
+sequence of checks and tests is called a "build"; a change that causes a
+check/test to fail is said to have "broken the build". An active project will
+have several "builds" a day.</p>
+<p>CI encourages frequent merges and code reviews, forces regular communication to
+resolve differences in implicit assumptions.</p>
+<p>Thoughts, comments, criticism? Fire away.</p>
+<h3>Learn More</h3>
+<ul>
+<li>A much more <a href="http://martinfowler.com/articles/continuousIntegration.html">detailed explanation</a> (from 2006) by Martin Fowler</li>
+<li><a href="https://travis-ci.org/">travis-ci</a> offers free online builds for open-source projects</li>
+<li><a href="http://jenkins-ci.org/">jenkins-ci</a> is a popular tool amongst larger teams/companies</li>
+</ul>
+            <p style="color:white;background:rgba(0,128,0,1);border-radius:10px;padding:10px">If you got this far, you might as well
+              <a href="http://tumblr.us9.list-manage.com/subscribe?u=90adbe6df2e5d7c467cce32b0&id=8c0c920c7b">sign up for more</a>.
+            </p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = "menotninja"; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div><footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-55813630-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+    </script>
+</body>
+</html>
