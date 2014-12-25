@@ -3,13 +3,18 @@ Date: 2014-12-25
 Slug: about
 Summary: About MeNotNinja
 
-You: ambitious, smart, and diligent. Heck, you probably taught yourself how to
+MeNotNinja is a blog dedicated to growing software developers, engineers, or
+whatever you like to call yourselves.
+
+![jets]({filename}/images/jets-small.jpg)
+
+You: ambitious, *smart*, and diligent. Heck, you probably taught yourself how to
 program, or went to a boot camp, and have a few projects/apps under your belt.
 Yet, you feel like something is missing - a piece of the puzzle, a step in the
 ladder, that will let you climb from being an amateur coder to a professional
 software engineer.
 
-I am here to show you that step.
+<p style="text-align: center">I am here to show you that step.</p>
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
