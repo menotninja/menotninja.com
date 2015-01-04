@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-12-24T00:00:00+01:00</updated><entry><title>Continuous Integration (for Beginners)</title><link href="/continuous-integration-for-beginners.html" rel="alternate"></link><updated>2014-12-24T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-12-24:continuous-integration-for-beginners.html</id><summary type="html">&lt;p&gt;&lt;img alt="ci-branches" src="/images/ci-branches.png" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-01-03T00:00:00+01:00</updated><entry><title>Asking for Feedback and Criticism</title><link href="/asking-for-feedback-and-criticism.html" rel="alternate"></link><updated>2015-01-03T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2015-01-03:asking-for-feedback-and-criticism.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;You built something. Now put it out there, feel the excitement, and don't
+hide inside the closet.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="ci-branches" src="/images/wall.jpg" /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The brick walls are there to give us a chance to show how badly we want
+something.
+&lt;cite&gt;- Randy Pausch&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Criticism can be stinging. It can make you feel incompetent, "not good
+enough," or that you are "not moving fast enough." However, it is necessary
+- the discomfort you feel is often a sign of growth. Constructive feedback is
+one of the biggest learning accelerators, and the time you spent learning how
+to receive it will be rewarded many times over.&lt;/p&gt;
+&lt;p&gt;Find that discomfort. If you are comfortable all the time, that is a sure sign
+that you have reached a plateau and stopped advancing. Learn to stretch in that
+discomfort, and be smug in the knowledge that it is a symptom of you pushing
+your boundaries.&lt;/p&gt;
+&lt;h3&gt;Asking for Feedback&lt;/h3&gt;
+&lt;p&gt;If you expect to be overwhelmed by the response, do some preparation work
+before asking for feedback.&lt;/p&gt;
+&lt;p&gt;Identify a small number (say, 3) areas of weakness, and ask for feedback
+specifically for these areas. If you receive feedback for other areas, welcome
+them, but don't let yourself be overwhelmed. You can work on them, &lt;em&gt;later&lt;/em&gt;.
+Focus your attention and energies on a few select areas.&lt;/p&gt;
+&lt;h3&gt;Using Criticism&lt;/h3&gt;
+&lt;p&gt;Whenever you expect a wide audience, also expect a mixture of high quality and
+low quality feedback.&lt;/p&gt;
+&lt;p&gt;Separate constructive from non-constructive feedback. Look for clear signals,
+such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the haters, who criticize using adjectives on the "overall" work without
+  pointing out specific flaws &lt;em&gt;e.g.&lt;/em&gt; "you cannot make this better, stop trying."&lt;/li&gt;
+&lt;li&gt;the supporters, who point out specific flaws and tell you what specific
+  actions to take to make it better &lt;em&gt;e.g.&lt;/em&gt; "here is one way to make it better."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pro Tip - don't stress out about specific flaws in one work/project. Instead,
+focus on identifying patterns and habits that you can improve for all future
+works &lt;em&gt;e.g.&lt;/em&gt; better ways to write unit tests. Generalize and reuse.&lt;/p&gt;
+&lt;p&gt;Thoughts, comments, criticism? Fire away.&lt;/p&gt;</summary><category term="beginners"></category><category term="mentoring"></category></entry><entry><title>Continuous Integration (for Beginners)</title><link href="/continuous-integration-for-beginners.html" rel="alternate"></link><updated>2014-12-24T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2014-12-24:continuous-integration-for-beginners.html</id><summary type="html">&lt;p&gt;&lt;img alt="ci-branches" src="/images/ci-branches.png" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ooh that's a fancy buzzword.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I am certain you have heard it a few times - "CI" is a hot term that gets
 frequently tossed around other agile/XP concepts. It can sound intimidating,
