@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>One Habit to Start Writing Better Code // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Mon 12 January 2015</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>One Habit to Start Writing Better Code</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <p><strong>Don't just "will" yourself to write better code. Cultivate keystone habits
+and improve your craft.</strong></p>
+<p>CS undergraduates and beginners often ask: how can I write better code? It is
+hard to provide a definitive answer; after all, issuing instructions to the CPU
+is a science, but writing good code is an art. Numerous books have been written
+providing thousands of pages of guidelines advocating good practices. However,
+how should one get started?</p>
+<p>While it might be useful to keep a checklist of guidelines and review them
+every time you program, it can get tedious real fast. Nobody wants to do that.
+Instead, it can be much more productive to focus on creating habits that will
+follow you throughout your career. Here is a keystone habit that will set you
+on your way.</p>
+<h3>Write Test Stubs In Parallel</h3>
+<p>As you create a new classes/modules/methods, also create test stubs in a
+separate window. It's similar to TDD, but it is way easier to get started. All
+you have to do is to create the test suites, and give your test cases
+meaningful names, but you don’t have to fill them in. Add TODO comments in the
+test cases if you like.</p>
+<p><img alt="test-stubs" src="/images/test-stubs-small.png" /></p>
+<p>It is a simple habit that does a few tricks. Since it reminds you that your
+code needs to be testable, it encourages you to</p>
+<ul>
+<li>have a plan/design before you code;</li>
+<li>break up (or organize) your code into smaller bite-size chunks; and</li>
+<li>manage dependencies on the network or on external libraries.</li>
+</ul>
+<p>Give it a shot.</p>
+            <p style="color:white;background:rgba(0,128,0,1);border-radius:10px;padding:10px">If you got this far, you might as well
+              <a href="http://tumblr.us9.list-manage.com/subscribe?u=90adbe6df2e5d7c467cce32b0&id=8c0c920c7b">sign up for more</a>.
+            </p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = "menotninja"; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div><footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-55813630-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+    </script>
+</body>
+</html>
