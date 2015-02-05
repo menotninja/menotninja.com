@@ -51,6 +51,92 @@ Posts tagged 'mentoring'                </h1>
     <header class="post-header">
         <a href="/author/menotninja.html" title="See posts by menotninja">
         </a>
+        <h3><a class="post-title" href="/the-joy-of-planning.html">The Joy of Planning</a></h3>
+            <p class="post-meta"><h3>Fighting the Kraken</h3>
+<p>A long long time ago, the assignments and tasks I worked on were incredibly
+simple. I could bang out a half-assed solution with my eyes closed, submit it
+with minimal tests, and still get a decent score. Of course this inflated my
+confidence, and I never bothered learning how to plan. Yeah, I was that
+arrogant guy in your CS class.</p>
+<p>"Ah! Looks trivial. Just give me a day and I will figure it out."</p>
+<p>Heh. What an idiot I was.</p>
+<p>If you have worked on any significant project, you know that this attitude
+wouldn’t serve me well. I was young and naïve; as projects got harder, I
+thought that I could increase productivity by using some shiny framework, some
+fancy automation tool, a particular brand of mechanical keyboards, or even a
+<em>different keyboard layout</em>. Of course that didnt work. What was I thinking?</p>
+<p>A few years after I started learning how to code, I worked on a distributed
+system with a partner (let’s call him Ted.) We were both hot blooded and
+wanted to jump straight to the code and bang it out as fast as we could,
+because we thought we were "ninjas". LOL. We had a great time, and were
+consistently coming up with new ideas every day and wanted to add "cool"
+features to our project.</p>
+<p>"Oh! Wouldn’t it be cool if it did this?"</p>
+<p>We worked feverishly, and kept adding more and more features to the project.
+"Because we can! Haha!" The codebase grew uncontrollably, and work became
+harder and harder to coordinate. It grew rapidly out of control, and complexity
+skyrocketed. It was a mess. It was the worst spaghetti code, ever. On top of
+that, the large number of features we had to support made it difficult to use
+and very tricky to debug.</p>
+<p>Eventually, it became to much for us to handle. We spent several weeks
+obsessively refactoring the code and organized various pieces into separate
+components. We barely made the deadline, and fell short of our expectations.</p>
+<p>It sucked, but it was a good lesson for us.</p>
+<h3>Drawing a Map, Writing the Story</h3>
+<p><img alt="planning" src="/images/sf-bay.jpg" /></p>
+<p>I didn’t glean the lesson entirely until a few years later; I realized that
+the root cause was our lack of discipline to plan ahead.</p>
+<p>When you start working on a large project, it can often be exciting and
+overwhelming at the same time. Where do I start? What features should I build?
+Occasionally, you might be tempted to jump straight in and soak it up (which
+was what we did.) Instead, break it down into smaller pieces. Whittle away at
+the problem until it becomes tractable.</p>
+<p>Ha! I can already hear some of you yelling: "I am AGILE! Who needs a plan?
+<em>rolls eyes</em>" Sorry to have to burst your bubble, but it is a myth that agile
+software development and planning are <a href="http://dilbert.com/strip/2007-11-26">mutually exclusive ideas</a>.
+Agile doesn’t mean “no plan required” - it means that you plan to collect
+feedback at the end of each iteration to update the plan.</p>
+<blockquote>
+<p>Practical design does not anticipate what will happen to your application; it
+merely accepts that something will and that, in the present, you cannot know
+what. - Sandi Metz, <em>Practical Object-Oriented Design In Ruby: An Agile
+Primer</em></p>
+</blockquote>
+<p>Start with a short plan. It doesn’t have to be very involved, but it should
+give you a map showing you where to go, and how to get started.</p>
+<ol>
+<li>Describe the purpose of the project. If possible, identify existing
+   solutions and abstractions (e.g. It’  a "distributed cache" or "REST
+   server").</li>
+<li>Make a list of desired features, organizing them into 'must have', and 'nice
+   to have'. Decide what you are definitely <em>not</em> building.</li>
+<li>Figure out the components and their interfaces. Create a story - what
+   features belong together naturally?</li>
+<li>Identify important libraries and dependencies. Say, you need JSON parsers: pick one.</li>
+<li>(Advanced) Make a list of assumptions. For example, you might assume that
+   the your processes have complete ownership of the disk (or other devices) in
+   other to make some optimizations.</li>
+<li>(Advanced) Pick design patterns (link to GOF) you intend to use. Decide if
+   you wish to use a dependency injection framework.</li>
+</ol>
+<p>Here’s the kicker: this plan is not final. In fact, it’s likely to change as
+the project grows, but it makes every change visible and forces you to think
+about that change.</p>
+<p>Creating a short plan (like the one above) makes it easier to</p>
+<ul>
+<li>split up the work,</li>
+<li>identify difficult components that require more research, and</li>
+<li>design the components so that they are easy to test/change.</li>
+</ul>
+<p>Now get out there and code your ass off.</p></p>
+            <p class="post-meta">
+                in <a href="/category/programming.html">Programming</a> &middot; Wed 04 February 2015
+            </p>
+    </header>
+</section><section class="post">
+    <header class="post-header">
+        <a href="/author/menotninja.html" title="See posts by menotninja">
+        </a>
         <h3><a class="post-title" href="/habit-to-write-better-code.html">One Habit to Start Writing Better Code</a></h3>
             <p class="post-meta"><p><strong>Don't just "will" yourself to write better code. Cultivate keystone habits
 and improve your craft.</strong></p>

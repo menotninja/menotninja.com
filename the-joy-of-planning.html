@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Me Not Ninja, Reaching 10x">
+
+        <link rel="alternate"  href="/feeds/all.atom.xml" type="application/atom+xml" title="Me Not Ninja Full Atom Feed"/>
+
+        <title>The Joy of Planning // Me Not Ninja // Reaching 10x</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="/author/menotninja.html" title="See posts by menotninja">
+                </a>
+                <h2 class="article-info">menotninja</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Wed 04 February 2015</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>The Joy of Planning</h1>
+                        <p class="post-meta">
+                        // under
+                        <a class="post-category" href="/category/programming.html">Programming</a>
+                        </p>
+                </header>
+            </section>
+            <h3>Fighting the Kraken</h3>
+<p>A long long time ago, the assignments and tasks I worked on were incredibly
+simple. I could bang out a half-assed solution with my eyes closed, submit it
+with minimal tests, and still get a decent score. Of course this inflated my
+confidence, and I never bothered learning how to plan. Yeah, I was that
+arrogant guy in your CS class.</p>
+<p>"Ah! Looks trivial. Just give me a day and I will figure it out."</p>
+<p>Heh. What an idiot I was.</p>
+<p>If you have worked on any significant project, you know that this attitude
+wouldn’t serve me well. I was young and naïve; as projects got harder, I
+thought that I could increase productivity by using some shiny framework, some
+fancy automation tool, a particular brand of mechanical keyboards, or even a
+<em>different keyboard layout</em>. Of course that didnt work. What was I thinking?</p>
+<p>A few years after I started learning how to code, I worked on a distributed
+system with a partner (let’s call him Ted.) We were both hot blooded and
+wanted to jump straight to the code and bang it out as fast as we could,
+because we thought we were "ninjas". LOL. We had a great time, and were
+consistently coming up with new ideas every day and wanted to add "cool"
+features to our project.</p>
+<p>"Oh! Wouldn’t it be cool if it did this?"</p>
+<p>We worked feverishly, and kept adding more and more features to the project.
+"Because we can! Haha!" The codebase grew uncontrollably, and work became
+harder and harder to coordinate. It grew rapidly out of control, and complexity
+skyrocketed. It was a mess. It was the worst spaghetti code, ever. On top of
+that, the large number of features we had to support made it difficult to use
+and very tricky to debug.</p>
+<p>Eventually, it became to much for us to handle. We spent several weeks
+obsessively refactoring the code and organized various pieces into separate
+components. We barely made the deadline, and fell short of our expectations.</p>
+<p>It sucked, but it was a good lesson for us.</p>
+<h3>Drawing a Map, Writing the Story</h3>
+<p><img alt="planning" src="/images/sf-bay.jpg" /></p>
+<p>I didn’t glean the lesson entirely until a few years later; I realized that
+the root cause was our lack of discipline to plan ahead.</p>
+<p>When you start working on a large project, it can often be exciting and
+overwhelming at the same time. Where do I start? What features should I build?
+Occasionally, you might be tempted to jump straight in and soak it up (which
+was what we did.) Instead, break it down into smaller pieces. Whittle away at
+the problem until it becomes tractable.</p>
+<p>Ha! I can already hear some of you yelling: "I am AGILE! Who needs a plan?
+<em>rolls eyes</em>" Sorry to have to burst your bubble, but it is a myth that agile
+software development and planning are <a href="http://dilbert.com/strip/2007-11-26">mutually exclusive ideas</a>.
+Agile doesn’t mean “no plan required” - it means that you plan to collect
+feedback at the end of each iteration to update the plan.</p>
+<blockquote>
+<p>Practical design does not anticipate what will happen to your application; it
+merely accepts that something will and that, in the present, you cannot know
+what. - Sandi Metz, <em>Practical Object-Oriented Design In Ruby: An Agile
+Primer</em></p>
+</blockquote>
+<p>Start with a short plan. It doesn’t have to be very involved, but it should
+give you a map showing you where to go, and how to get started.</p>
+<ol>
+<li>Describe the purpose of the project. If possible, identify existing
+   solutions and abstractions (e.g. It’  a "distributed cache" or "REST
+   server").</li>
+<li>Make a list of desired features, organizing them into 'must have', and 'nice
+   to have'. Decide what you are definitely <em>not</em> building.</li>
+<li>Figure out the components and their interfaces. Create a story - what
+   features belong together naturally?</li>
+<li>Identify important libraries and dependencies. Say, you need JSON parsers: pick one.</li>
+<li>(Advanced) Make a list of assumptions. For example, you might assume that
+   the your processes have complete ownership of the disk (or other devices) in
+   other to make some optimizations.</li>
+<li>(Advanced) Pick design patterns (link to GOF) you intend to use. Decide if
+   you wish to use a dependency injection framework.</li>
+</ol>
+<p>Here’s the kicker: this plan is not final. In fact, it’s likely to change as
+the project grows, but it makes every change visible and forces you to think
+about that change.</p>
+<p>Creating a short plan (like the one above) makes it easier to</p>
+<ul>
+<li>split up the work,</li>
+<li>identify difficult components that require more research, and</li>
+<li>design the components so that they are easy to test/change.</li>
+</ul>
+<p>Now get out there and code your ass off.</p>
+            <p style="color:white;background:rgba(0,128,0,1);border-radius:10px;padding:10px">If you got this far, you might as well
+              <a href="http://tumblr.us9.list-manage.com/subscribe?u=90adbe6df2e5d7c467cce32b0&id=8c0c920c7b">sign up for more</a>.
+            </p>
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = "menotninja"; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div><footer class="footer">
+    <p>&copy; Me Not Ninja &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-55813630-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+    </script>
+</body>
+</html>

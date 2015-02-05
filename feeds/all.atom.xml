@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-01-12T00:00:00+01:00</updated><entry><title>One Habit to Start Writing Better Code</title><link href="/habit-to-write-better-code.html" rel="alternate"></link><updated>2015-01-12T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2015-01-12:habit-to-write-better-code.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Don't just "will" yourself to write better code. Cultivate keystone habits
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Me Not Ninja</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-02-04T00:00:00+01:00</updated><entry><title>The Joy of Planning</title><link href="/the-joy-of-planning.html" rel="alternate"></link><updated>2015-02-04T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2015-02-04:the-joy-of-planning.html</id><summary type="html">&lt;h3&gt;Fighting the Kraken&lt;/h3&gt;
+&lt;p&gt;A long long time ago, the assignments and tasks I worked on were incredibly
+simple. I could bang out a half-assed solution with my eyes closed, submit it
+with minimal tests, and still get a decent score. Of course this inflated my
+confidence, and I never bothered learning how to plan. Yeah, I was that
+arrogant guy in your CS class.&lt;/p&gt;
+&lt;p&gt;"Ah! Looks trivial. Just give me a day and I will figure it out."&lt;/p&gt;
+&lt;p&gt;Heh. What an idiot I was.&lt;/p&gt;
+&lt;p&gt;If you have worked on any significant project, you know that this attitude
+wouldn’t serve me well. I was young and naïve; as projects got harder, I
+thought that I could increase productivity by using some shiny framework, some
+fancy automation tool, a particular brand of mechanical keyboards, or even a
+&lt;em&gt;different keyboard layout&lt;/em&gt;. Of course that didnt work. What was I thinking?&lt;/p&gt;
+&lt;p&gt;A few years after I started learning how to code, I worked on a distributed
+system with a partner (let’s call him Ted.) We were both hot blooded and
+wanted to jump straight to the code and bang it out as fast as we could,
+because we thought we were "ninjas". LOL. We had a great time, and were
+consistently coming up with new ideas every day and wanted to add "cool"
+features to our project.&lt;/p&gt;
+&lt;p&gt;"Oh! Wouldn’t it be cool if it did this?"&lt;/p&gt;
+&lt;p&gt;We worked feverishly, and kept adding more and more features to the project.
+"Because we can! Haha!" The codebase grew uncontrollably, and work became
+harder and harder to coordinate. It grew rapidly out of control, and complexity
+skyrocketed. It was a mess. It was the worst spaghetti code, ever. On top of
+that, the large number of features we had to support made it difficult to use
+and very tricky to debug.&lt;/p&gt;
+&lt;p&gt;Eventually, it became to much for us to handle. We spent several weeks
+obsessively refactoring the code and organized various pieces into separate
+components. We barely made the deadline, and fell short of our expectations.&lt;/p&gt;
+&lt;p&gt;It sucked, but it was a good lesson for us.&lt;/p&gt;
+&lt;h3&gt;Drawing a Map, Writing the Story&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="planning" src="/images/sf-bay.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;I didn’t glean the lesson entirely until a few years later; I realized that
+the root cause was our lack of discipline to plan ahead.&lt;/p&gt;
+&lt;p&gt;When you start working on a large project, it can often be exciting and
+overwhelming at the same time. Where do I start? What features should I build?
+Occasionally, you might be tempted to jump straight in and soak it up (which
+was what we did.) Instead, break it down into smaller pieces. Whittle away at
+the problem until it becomes tractable.&lt;/p&gt;
+&lt;p&gt;Ha! I can already hear some of you yelling: "I am AGILE! Who needs a plan?
+&lt;em&gt;rolls eyes&lt;/em&gt;" Sorry to have to burst your bubble, but it is a myth that agile
+software development and planning are &lt;a href="http://dilbert.com/strip/2007-11-26"&gt;mutually exclusive ideas&lt;/a&gt;.
+Agile doesn’t mean “no plan required” - it means that you plan to collect
+feedback at the end of each iteration to update the plan.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Practical design does not anticipate what will happen to your application; it
+merely accepts that something will and that, in the present, you cannot know
+what. - Sandi Metz, &lt;em&gt;Practical Object-Oriented Design In Ruby: An Agile
+Primer&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Start with a short plan. It doesn’t have to be very involved, but it should
+give you a map showing you where to go, and how to get started.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Describe the purpose of the project. If possible, identify existing
+   solutions and abstractions (e.g. It’  a "distributed cache" or "REST
+   server").&lt;/li&gt;
+&lt;li&gt;Make a list of desired features, organizing them into 'must have', and 'nice
+   to have'. Decide what you are definitely &lt;em&gt;not&lt;/em&gt; building.&lt;/li&gt;
+&lt;li&gt;Figure out the components and their interfaces. Create a story - what
+   features belong together naturally?&lt;/li&gt;
+&lt;li&gt;Identify important libraries and dependencies. Say, you need JSON parsers: pick one.&lt;/li&gt;
+&lt;li&gt;(Advanced) Make a list of assumptions. For example, you might assume that
+   the your processes have complete ownership of the disk (or other devices) in
+   other to make some optimizations.&lt;/li&gt;
+&lt;li&gt;(Advanced) Pick design patterns (link to GOF) you intend to use. Decide if
+   you wish to use a dependency injection framework.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here’s the kicker: this plan is not final. In fact, it’s likely to change as
+the project grows, but it makes every change visible and forces you to think
+about that change.&lt;/p&gt;
+&lt;p&gt;Creating a short plan (like the one above) makes it easier to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;split up the work,&lt;/li&gt;
+&lt;li&gt;identify difficult components that require more research, and&lt;/li&gt;
+&lt;li&gt;design the components so that they are easy to test/change.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now get out there and code your ass off.&lt;/p&gt;</summary><category term="beginners"></category><category term="mentoring"></category></entry><entry><title>One Habit to Start Writing Better Code</title><link href="/habit-to-write-better-code.html" rel="alternate"></link><updated>2015-01-12T00:00:00+01:00</updated><author><name>menotninja</name></author><id>tag:,2015-01-12:habit-to-write-better-code.html</id><summary type="html">&lt;p&gt;&lt;strong&gt;Don't just "will" yourself to write better code. Cultivate keystone habits
 and improve your craft.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;CS undergraduates and beginners often ask: how can I write better code? It is
 hard to provide a definitive answer; after all, issuing instructions to the CPU
