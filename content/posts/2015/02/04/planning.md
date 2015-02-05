@@ -65,8 +65,7 @@ feedback at the end of each iteration to update the plan.
 
 > Practical design does not anticipate what will happen to your application; it
 > merely accepts that something will and that, in the present, you cannot know
-> what. - Sandi Metz, _[Practical Object-Oriented Design In Ruby: An Agile
-> Primer][agile]_
+> what. - Sandi Metz, _[Practical Object-Oriented Design In Ruby][agile]_
 
 Start with a short plan. It doesn’t have to be very involved, but it should
 give you a map showing you where to go, and how to get started.
