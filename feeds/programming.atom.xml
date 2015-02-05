@@ -63,7 +63,7 @@ give you a map showing you where to go, and how to get started.&lt;/p&gt;
 &lt;li&gt;(Advanced) Make a list of assumptions. For example, you might assume that
    the your processes have complete ownership of the disk (or other devices) in
    other to make some optimizations.&lt;/li&gt;
-&lt;li&gt;(Advanced) Pick design patterns (link to GOF) you intend to use. Decide if
+&lt;li&gt;(Advanced) Pick &lt;a href="http://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0201633612&amp;amp;linkCode=as2&amp;amp;tag=menoni-20&amp;amp;linkId=YD6RIFH4Y2C6AAPW"&gt;design patterns&lt;/a&gt; you intend to use. Decide if
    you wish to use a dependency injection framework.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Here’s the kicker: this plan is not final. In fact, it’s likely to change as
