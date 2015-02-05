@@ -46,7 +46,7 @@ It sucked, but it was a good lesson for us.
 
 ### Drawing a Map, Writing the Story
 
-![planning]({filename}/images/sf-bay.jpg)
+<a href="https://www.flickr.com/photos/walkingsf/3985841869/in/photostream/">![planning]({filename}/images/sf-bay.jpg)</a>
 
 I didn’t glean the lesson entirely until a few years later; I realized that
 the root cause was our lack of discipline to plan ahead.
