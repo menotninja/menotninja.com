@@ -65,8 +65,8 @@ feedback at the end of each iteration to update the plan.
 
 > Practical design does not anticipate what will happen to your application; it
 > merely accepts that something will and that, in the present, you cannot know
-> what. - Sandi Metz, _Practical Object-Oriented Design In Ruby: An Agile
-> Primer_
+> what. - Sandi Metz, _[Practical Object-Oriented Design In Ruby: An Agile
+> Primer][agile]_
 
 Start with a short plan. It doesn’t have to be very involved, but it should
 give you a map showing you where to go, and how to get started.
@@ -82,7 +82,7 @@ give you a map showing you where to go, and how to get started.
 1. (Advanced) Make a list of assumptions. For example, you might assume that
    the your processes have complete ownership of the disk (or other devices) in
    other to make some optimizations.
-1. (Advanced) Pick design patterns (link to GOF) you intend to use. Decide if
+1. (Advanced) Pick [design patterns][GOF] you intend to use. Decide if
    you wish to use a dependency injection framework.
 
 Here’s the kicker: this plan is not final. In fact, it’s likely to change as
@@ -98,3 +98,5 @@ Creating a short plan (like the one above) makes it easier to
 Now get out there and code your ass off.
 
   [dilbert]: http://dilbert.com/strip/2007-11-26
+  [GOF]: http://www.amazon.com/gp/product/0201633612/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0201633612&linkCode=as2&tag=menoni-20&linkId=YD6RIFH4Y2C6AAPW
+  [agile]: http://www.amazon.com/gp/product/B0096BYG7C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0096BYG7C&linkCode=as2&tag=menoni-20&linkId=GJF7PZQN4QWHP3ZV
